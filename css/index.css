@@ -1,0 +1,82 @@
+.welcome {
+    text-align: center;
+}
+
+.header {
+    background-color: white;
+    padding: 10px 5px;
+    display: flex;
+    gap:10px;
+}
+.header a {
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 10px 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+.header a:hover {
+    color: red;
+    border-radius: 5px;
+}
+
+.logo {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.cine {
+    background-color: #a83232;
+    color: white;
+    padding: 5px 5px;
+}
+
+.verse {
+    background-color: #3256a8;
+    color: white;
+    padding: 5px 5px;
+}
+
+.nav {
+    display: flex;
+    gap: 10px;
+    margin-left: auto; /* This pushes the nav to the right */
+    margin-top: 10px;
+}
+
+.img {
+    width: 1685px; 
+    height: 500px; 
+    object-fit: cover;
+}
+
+.action {
+    color: maroon; 
+    text-align: center;     
+    font-family:Permanent Marker, serif;
+}
+
+.bring {
+    color: maroon; 
+    text-align: center;   
+    font-family: Varela Round, serif;
+}
+
+@media (min-width: 600px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 2rem;
+    }
+
+    .nav a {
+        margin: 0 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}

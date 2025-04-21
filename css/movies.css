@@ -1,0 +1,40 @@
+.movies {
+    text-align: center; 
+    color: white;
+}
+
+.magic {
+    color: white;
+}
+
+.english {
+    font-size:larger; 
+    color: white;
+}
+
+.para {
+    font-size: x-large; 
+    color: white;
+}
+
+@media (min-width: 600px) {
+    body {
+      padding: 2rem 4rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    p, li {
+      font-size: 1.1rem;
+    }
+
+    button {
+      font-size: 1.1rem;
+    }
+  }

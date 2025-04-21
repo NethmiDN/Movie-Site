@@ -1,0 +1,73 @@
+#page{
+    background-color: #657d85;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+table, td{
+    border : 1px solid black;
+    border-collapse: collapse;
+}
+
+#moviesPage{
+    background-image: url("/assets/images/movie_page_icon.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: brightness(200%); /* Decrease brightness */
+
+}
+
+.lists a {
+    text-decoration: none;
+    color: bisque;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+#tvseriesPage{
+    background-image: url("/assets/images/tvseries_icon.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: brightness(200%); /* Decrease brightness */
+}
+
+.name {
+    text-align: center;
+}
+
+.break{
+    width: 500px; 
+    height: 300px; 
+    object-fit: cover;
+}
+
+.bad {
+    font-size: larger; 
+    word-spacing:10px; 
+    letter-spacing: 2px;
+}
+
+.intro {
+    font-size: larger;
+}
+
+.special {
+    font-weight: bold;
+}
+
+.director {
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.rating {
+    width: 300px; 
+    text-align: center
+}
+
+.imdb {
+    height: 50px;
+}

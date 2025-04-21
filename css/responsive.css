@@ -1,0 +1,18 @@
+@media (max-width: 600px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+
+    button {
+      font-size: 0.95rem;
+      padding: 8px 16px;
+    }
+  }
