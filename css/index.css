@@ -79,4 +79,9 @@
     h1 {
         font-size: 2rem;
     }
+
+    .img {
+        width: 100%;
+        height: auto;
+    }
 }
