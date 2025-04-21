@@ -43,12 +43,12 @@
 .nav {
     display: flex;
     gap: 10px;
-    margin-left: auto; /* This pushes the nav to the right */
+    margin-left: auto; 
     margin-top: 10px;
 }
 
 .img {
-    width: 1685px; 
+    width: 1500px; 
     height: 500px; 
     object-fit: cover;
 }
@@ -64,24 +64,24 @@
     text-align: center;   
     font-family: Varela Round, serif;
 }
-
-@media (min-width: 600px) {
-    .header {
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 0 2rem;
-    }
-
-    .nav a {
-        margin: 0 1rem;
-    }
-
-    h1 {
-        font-size: 2rem;
-    }
-
+@media (max-width: 450px) {
     .img {
         width: 100%;
         height: auto;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav {
+        flex-direction: column;
+        gap: 5px;
+        margin-left: 0;
+    }
+
+    .welcome, .action, .bring {
+        font-size: 16px;
     }
 }
